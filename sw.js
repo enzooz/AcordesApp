@@ -1,4 +1,4 @@
-const CACHE_NAME = 'acordesapp-v3';
+const CACHE_NAME = 'acordesapp-v4';
 const FILES = [
   '/index.html',
   '/style.css',
