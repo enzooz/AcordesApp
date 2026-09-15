@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AcordesApp</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2c7a4b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Acordes">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h2>AcordesApp</h2>
+      <button id="closeSidebar" class="close-btn">&times;</button>
+    </div>
+    <nav class="sidebar-nav">
+      <button class="nav-btn active" data-view="home">Inicio</button>
+      <button class="nav-btn" data-view="search">Buscar</button>
+      <button class="nav-btn" data-view="add">Agregar Canción</button>
+      <button class="nav-btn" data-view="culto">Culto del día</button>
+    </nav>
+  </aside>
+
+  <!-- Overlay para móvil -->
+  <div id="overlay" class="overlay"></div>
+
+  <!-- Contenido principal -->
+  <main id="main" class="main">
+
+    <!-- Header -->
+    <header class="header">
+      <button id="openSidebar" class="hamburger">&#9776;</button>
+      <h1>AcordesApp</h1>
+      <div class="header-search">
+        <input type="text" id="searchInput" placeholder="Buscar canción o autor...">
+      </div>
+    </header>
+
+    <!-- Vista: Lista de canciones -->
+    <section id="view-home" class="view active">
+      <div class="tabs">
+        <button class="tab active" data-filter="order">Por carga</button>
+        <button class="tab" data-filter="author">Por autor</button>
+        <button class="tab" data-filter="alpha">Alfabético</button>
+      </div>
+      <div id="songList" class="song-list"></div>
+      <div id="emptyState" class="empty-state">
+        <p>No hay canciones todavía.</p>
+        <p>Hacé clic en "Agregar Canción" para empezar.</p>
+      </div>
+    </section>
+
+    <!-- Vista: Buscar -->
+    <section id="view-search" class="view">
+      <h2>Buscar</h2>
+      <input type="text" id="searchFull" placeholder="Escribí el título o autor...">
+      <div id="searchResults" class="song-list"></div>
+    </section>
+
+    <!-- Vista: Agregar/Editar canción -->
+    <section id="view-add" class="view">
+      <h2 id="formTitle">Agregar Canción</h2>
+      <form id="songForm">
+        <input type="hidden" id="songId">
+        <div class="form-group">
+          <label for="songName">Título</label>
+          <input type="text" id="songName" required>
+        </div>
+        <div class="form-group">
+          <label for="songAuthor">Autor</label>
+          <input type="text" id="songAuthor" required>
+        </div>
+        <div class="form-group">
+          <label for="songContent">Letra con acordes (usa [C], [Am].)</label>
+          <textarea id="songContent" rows="25" required></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+          <button type="button" id="cancelEdit" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Vista: Ver canción -->
+    <section id="view-song" class="view">
+      <div class="song-header">
+        <button id="backToList" class="btn-back">&larr; Volver</button>
+        <h2 id="songTitle"></h2>
+        <p id="songAuthor" class="song-author"></p>
+      </div>
+      <div class="transpose-controls">
+        <span>Tono:</span>
+        <button id="transposeDown" class="btn btn-sm">-</button>
+        <span id="currentTone">0</span>
+        <button id="transposeUp" class="btn btn-sm">+</button>
+        <button id="transposeReset" class="btn btn-sm btn-reset">Reiniciar</button>
+      </div>
+      <div id="songDisplay" class="song-display"></div>
+      <div class="song-actions">
+        <button id="addToCulto" class="btn btn-culto">Agregar al culto de hoy</button>
+        <button id="editSong" class="btn btn-secondary">Editar</button>
+        <button id="deleteSong" class="btn btn-danger">Eliminar</button>
+      </div>
+    </section>
+
+    <!-- Vista: Culto del día -->
+    <section id="view-culto" class="view">
+      <div class="culto-header">
+        <h2>Culto del día</h2>
+        <button id="clearCulto" class="btn btn-danger">Limpiar culto</button>
+      </div>
+      <div id="cultoList" class="song-list"></div>
+      <div id="cultoEmpty" class="empty-state">
+        <p>No hay canciones en el culto todavía.</p>
+        <p>Abra una canción y haga clic en "Agregar al culto de hoy".</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js').catch(err => console.error('SW registration failed:', err));
+    }
+  </script>
+</body>
+</html>
