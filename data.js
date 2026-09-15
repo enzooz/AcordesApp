@@ -3,7 +3,7 @@ const DEFAULT_SONGS = [
         id: "default-001",
         title: "La bondad de Dios",
         author: "Bethel Music",
-        content: `[Intro] G G4 G G4 G
+        content: `[Intro] [G] [G4] [G] [G4] [G]
 
 [G]Te amo Dios[C9]   [G]Tu bondad nunca me falla[D/F#] [Em7]Y mis días, en tus manos están[Em7] [C9]Desde el momento que despierto[G]    [D/F#] [Em7]Hasta el anochecer[C9]       [D2]         [G]Yo cantaré de la bondad de Dios
 
