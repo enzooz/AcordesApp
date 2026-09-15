@@ -1,7 +1,3 @@
-// =============================================
-// AcordesApp - app.js
-// =============================================
-
 const STORAGE_KEY = 'acordesSongs';
 const CULTO_KEY = 'acordesCulto';
 
@@ -12,18 +8,14 @@ const CHORD_MAP_FLAT = {
   'C':'C','D':'D','E':'E','F':'F','G':'G','A':'A','B':'B'
 };
 
-// =============================================
-// State
-// =============================================
+
 let songs = [];
 let cultoSongs = [];
 let currentSongId = null;
 let currentTranspose = 0;
 let currentFilter = 'order';
 
-// =============================================
-// DOM Elements
-// =============================================
+
 const sidebar = document.getElementById('sidebar');
 const overlay = document.getElementById('overlay');
 const openSidebarBtn = document.getElementById('openSidebar');
@@ -58,9 +50,7 @@ const cultoList = document.getElementById('cultoList');
 const cultoEmpty = document.getElementById('cultoEmpty');
 const clearCultoBtn = document.getElementById('clearCulto');
 
-// =============================================
-// LocalStorage
-// =============================================
+
 function loadSongs() {
   const data = localStorage.getItem(STORAGE_KEY);
   if (data) {
@@ -75,9 +65,7 @@ function saveSongs() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(songs));
 }
 
-// =============================================
-// Culto LocalStorage
-// =============================================
+
 function loadCulto() {
   const data = localStorage.getItem(CULTO_KEY);
   cultoSongs = data ? JSON.parse(data) : [];
@@ -87,16 +75,12 @@ function saveCulto() {
   localStorage.setItem(CULTO_KEY, JSON.stringify(cultoSongs));
 }
 
-// =============================================
-// UUID
-// =============================================
+
 function uuid() {
   return 'xxxx-xxxx'.replace(/x/g, () => (Math.random() * 16 | 0).toString(16));
 }
 
-// =============================================
-// Navigation
-// =============================================
+
 function showView(viewName) {
   views.forEach(v => v.classList.remove('active'));
   navBtns.forEach(b => b.classList.remove('active'));
@@ -121,9 +105,6 @@ function closeSidebar() {
   overlay.classList.remove('active');
 }
 
-// =============================================
-// Song List Rendering
-// =============================================
 function renderSongList(targetEl, songsToShow) {
   targetEl.innerHTML = '';
 
@@ -193,9 +174,7 @@ function refreshList() {
   emptyState.style.display = filtered.length === 0 ? 'block' : 'none';
 }
 
-// =============================================
-// Song CRUD
-// =============================================
+
 function addSong(title, author, content) {
   const maxOrder = songs.reduce((max, s) => Math.max(max, s.order || 0), 0);
   const song = {
@@ -253,9 +232,7 @@ function moveSong(id, direction) {
   refreshList();
 }
 
-// =============================================
-// Culto CRUD
-// =============================================
+
 function addToCulto(songId) {
   const song = songs.find(s => s.id === songId);
   if (!song) return;
@@ -355,9 +332,7 @@ function isInCulto(songId) {
   return cultoSongs.some(s => s.originalId === songId);
 }
 
-// =============================================
-// Song View & Transpose
-// =============================================
+
 function openSong(id) {
   const song = songs.find(s => s.id === id);
   if (!song) return;
@@ -458,9 +433,6 @@ function transposeChord(chord, amount) {
   return CHORDS[idx] + rest;
 }
 
-// =============================================
-// Form
-// =============================================
 function resetForm() {
   songIdInput.value = '';
   songNameInput.value = '';
@@ -477,18 +449,11 @@ function fillForm(song) {
   formTitle.textContent = 'Editar Canción';
 }
 
-// =============================================
-// Escape HTML
-// =============================================
 function escapeHtml(str) {
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;
 }
-
-// =============================================
-// Event Listeners
-// =============================================
 
 // Sidebar
 openSidebarBtn.addEventListener('click', openSidebar);
