@@ -1,5 +1,7 @@
 const STORAGE_KEY = 'acordesSongs';
 const CULTO_KEY = 'acordesCulto';
+const SEED_KEY = 'acordesSeedVersion';
+const SEED_VERSION = 2;
 
 const CHORDS = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 
@@ -14,6 +16,7 @@ let cultoSongs = [];
 let currentSongId = null;
 let currentTranspose = 0;
 let currentFilter = 'order';
+let currentSource = 'library';
 
 
 const sidebar = document.getElementById('sidebar');
@@ -35,7 +38,7 @@ const songAuthorInput = document.getElementById('songAuthor');
 const songContentInput = document.getElementById('songContent');
 const cancelEditBtn = document.getElementById('cancelEdit');
 const songTitleEl = document.getElementById('songTitle');
-const songAuthorEl = document.getElementById('songAuthor');
+const songAuthorEl = document.getElementById('songAuthorView');
 const songDisplay = document.getElementById('songDisplay');
 const backToListBtn = document.getElementById('backToList');
 const editSongBtn = document.getElementById('editSong');
@@ -52,11 +55,23 @@ const clearCultoBtn = document.getElementById('clearCulto');
 
 
 function loadSongs() {
-  const data = localStorage.getItem(STORAGE_KEY);
-  if (data) {
-    songs = JSON.parse(data);
-  } else {
-    songs = [...DEFAULT_SONGS];
+  try {
+    songs = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+  } catch (e) {
+    songs = [];
+  }
+  if (!Array.isArray(songs)) songs = [];
+
+  const storedVersion = parseInt(localStorage.getItem(SEED_KEY) || '0');
+  if (storedVersion < SEED_VERSION) {
+    const existingIds = new Set(songs.map(s => s.id));
+    DEFAULT_SONGS.forEach(def => {
+      if (!existingIds.has(def.id)) {
+        songs.push({ ...def });
+        existingIds.add(def.id);
+      }
+    });
+    localStorage.setItem(SEED_KEY, String(SEED_VERSION));
     saveSongs();
   }
 }
@@ -218,15 +233,9 @@ function moveSong(id, direction) {
   const songA = songs.find(s => s.id === filtered[idx].id);
   const songB = songs.find(s => s.id === filtered[targetIdx].id);
 
-  if (currentFilter === 'order') {
-    const tmpOrder = songA.order;
-    songA.order = songB.order;
-    songB.order = tmpOrder;
-  } else {
-    const tmpOrder = songA.order;
-    songA.order = songB.order;
-    songB.order = tmpOrder;
-  }
+  const tmpOrder = songA.order;
+  songA.order = songB.order;
+  songB.order = tmpOrder;
 
   saveSongs();
   refreshList();
@@ -318,11 +327,14 @@ function renderCultoList() {
 
 function openCultoSong(song) {
   currentSongId = song.cultoId;
+  currentSource = 'culto';
   currentTranspose = 0;
 
   songTitleEl.textContent = song.title;
   songAuthorEl.textContent = song.author;
   currentToneEl.textContent = '0';
+
+  addToCultoBtn.style.display = 'none';
 
   renderSongContent(song.content, 0);
   showView('song');
@@ -332,17 +344,27 @@ function isInCulto(songId) {
   return cultoSongs.some(s => s.originalId === songId);
 }
 
+function getDisplayedSong() {
+  if (currentSource === 'culto') {
+    return cultoSongs.find(s => s.cultoId === currentSongId) || null;
+  }
+  return songs.find(s => s.id === currentSongId) || null;
+}
+
 
 function openSong(id) {
   const song = songs.find(s => s.id === id);
   if (!song) return;
 
   currentSongId = id;
+  currentSource = 'library';
   currentTranspose = 0;
 
   songTitleEl.textContent = song.title;
   songAuthorEl.textContent = song.author;
   currentToneEl.textContent = '0';
+
+  addToCultoBtn.style.display = '';
 
   if (isInCulto(id)) {
     addToCultoBtn.textContent = 'Agregada al culto';
@@ -527,16 +549,26 @@ backToListBtn.addEventListener('click', () => {
 
 // Edit song
 editSongBtn.addEventListener('click', () => {
-  const song = songs.find(s => s.id === currentSongId);
-  if (song) {
-    fillForm(song);
-    showView('add');
+  const displayed = getDisplayedSong();
+  if (!displayed) return;
+
+  let song = displayed;
+  if (currentSource === 'culto' && displayed.originalId) {
+    song = songs.find(s => s.id === displayed.originalId) || displayed;
   }
+  fillForm(song);
+  showView('add');
 });
 
 // Delete song
 deleteSongBtn.addEventListener('click', () => {
-  if (confirm('¿Eliminar esta canción?')) {
+  if (!confirm('¿Eliminar esta canción?')) return;
+
+  if (currentSource === 'culto') {
+    removeFromCulto(currentSongId);
+    renderCultoList();
+    showView('culto');
+  } else {
     deleteSong(currentSongId);
     showView('home');
     refreshList();
@@ -547,21 +579,21 @@ deleteSongBtn.addEventListener('click', () => {
 transposeUpBtn.addEventListener('click', () => {
   currentTranspose++;
   currentToneEl.textContent = currentTranspose > 0 ? '+' + currentTranspose : currentTranspose;
-  const song = songs.find(s => s.id === currentSongId);
+  const song = getDisplayedSong();
   if (song) renderSongContent(song.content, currentTranspose);
 });
 
 transposeDownBtn.addEventListener('click', () => {
   currentTranspose--;
   currentToneEl.textContent = currentTranspose > 0 ? '+' + currentTranspose : currentTranspose;
-  const song = songs.find(s => s.id === currentSongId);
+  const song = getDisplayedSong();
   if (song) renderSongContent(song.content, currentTranspose);
 });
 
 transposeResetBtn.addEventListener('click', () => {
   currentTranspose = 0;
   currentToneEl.textContent = '0';
-  const song = songs.find(s => s.id === currentSongId);
+  const song = getDisplayedSong();
   if (song) renderSongContent(song.content, 0);
 });
 
