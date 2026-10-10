@@ -47,6 +47,9 @@ const transposeUpBtn = document.getElementById('transposeUp');
 const transposeDownBtn = document.getElementById('transposeDown');
 const transposeResetBtn = document.getElementById('transposeReset');
 const currentToneEl = document.getElementById('currentTone');
+const autoScrollBtn = document.getElementById('autoScrollBtn');
+const scrollSpeedInput = document.getElementById('scrollSpeed');
+const scrollSpeedLbl = document.getElementById('scrollSpeedLbl');
 const tabBtns = document.querySelectorAll('.tab');
 const addToCultoBtn = document.getElementById('addToCulto');
 const cultoList = document.getElementById('cultoList');
@@ -106,6 +109,8 @@ function showView(viewName) {
   navBtns.forEach(b => {
     if (b.dataset.view === viewName) b.classList.add('active');
   });
+
+  if (viewName !== 'song') stopAutoScroll();
 
   closeSidebar();
 }
@@ -329,6 +334,7 @@ function openCultoSong(song) {
   currentSongId = song.cultoId;
   currentSource = 'culto';
   currentTranspose = 0;
+  stopAutoScroll();
 
   songTitleEl.textContent = song.title;
   songAuthorEl.textContent = song.author;
@@ -359,6 +365,7 @@ function openSong(id) {
   currentSongId = id;
   currentSource = 'library';
   currentTranspose = 0;
+  stopAutoScroll();
 
   songTitleEl.textContent = song.title;
   songAuthorEl.textContent = song.author;
@@ -595,6 +602,56 @@ transposeResetBtn.addEventListener('click', () => {
   currentToneEl.textContent = '0';
   const song = getDisplayedSong();
   if (song) renderSongContent(song.content, 0);
+});
+
+// Auto scroll
+let autoScrollActive = false;
+let autoScrollTimer = null;
+
+function startAutoScroll() {
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  if (max <= 0) return;
+
+  stopAutoScroll();
+  autoScrollActive = true;
+  autoScrollBtn.textContent = '\u25A0 Detener';
+  autoScrollBtn.classList.add('running');
+
+  autoScrollTimer = setInterval(() => {
+    const speed = parseInt(scrollSpeedInput.value, 10) || 1;
+    const step = Math.round(speed * 0.7);
+    const limit = document.documentElement.scrollHeight - window.innerHeight;
+
+    if (window.scrollY >= limit - 2) {
+      stopAutoScroll();
+      return;
+    }
+    window.scrollBy(0, step);
+  }, 30);
+}
+
+function stopAutoScroll() {
+  autoScrollActive = false;
+  if (autoScrollTimer) {
+    clearInterval(autoScrollTimer);
+    autoScrollTimer = null;
+  }
+  if (autoScrollBtn) {
+    autoScrollBtn.textContent = '\u25B6 Corrido';
+    autoScrollBtn.classList.remove('running');
+  }
+}
+
+autoScrollBtn.addEventListener('click', () => {
+  if (autoScrollActive) {
+    stopAutoScroll();
+  } else {
+    startAutoScroll();
+  }
+});
+
+scrollSpeedInput.addEventListener('input', () => {
+  scrollSpeedLbl.textContent = scrollSpeedInput.value;
 });
 
 // Add to culto
