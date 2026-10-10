@@ -619,7 +619,7 @@ function startAutoScroll() {
 
   autoScrollTimer = setInterval(() => {
     const speed = parseInt(scrollSpeedInput.value, 10) || 1;
-    const step = Math.round(speed * 0.7);
+    const step = Math.max(1, Math.round(speed * 0.4));
     const limit = document.documentElement.scrollHeight - window.innerHeight;
 
     if (window.scrollY >= limit - 2) {
