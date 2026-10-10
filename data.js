@@ -644,5 +644,170 @@ Alegres porque escuchas cuando
         order: 12,
         createdAt: Date.now(),
         updatedAt: Date.now()
+    },
+    {
+        id: "default-013",
+        title: "En Los Montes, En Los Valles",
+        author: "Marcos Witt",
+        content: `[Intro] [Dm] [Bb] [A]
+
+[Dm]Oh oh oh oh [Bb]oh oh [A]oh
+[Dm]Oh oh oh oh [Bb]oh oh [A]oh
+
+VERSO 1:
+[Dm]En los montes, en los [Bb]valles
+[C]Exaltamos al que es [Dm]digno de alabanza
+[Dm]En las costas de los [Bb]mares
+[C]Levantamos un sonido [Dm]de esperanza
+[Dm]Aclamamos, aclamamos
+[Bb]Hacemos oír la [C]voz de su [Dm]alabanza
+[Dm]Con las manos en lo alto
+[Bb]Exaltamos al que [C]reina para [Dm]siempre
+
+[Dm]Oh oh oh oh [Bb]oh oh [A]oh
+[Dm]Oh oh oh oh [Bb]oh oh [A]oh
+[Dm]Oh oh oh oh [Bb]oh oh [A]oh
+[Dm]Oh oh oh oh [Bb]oh oh [A]oh
+
+CORO:
+[Dm]Subamos a adorar en el [Gm]monte de Sión
+[Dm]Es el gozo de [A]toda nación
+[Dm]Donde la tristeza es [Gm]gozo
+[Gm]El llanto es alegría
+[Dm]Subamos a adorar al gran [A]Rey`,
+        order: 13,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-014",
+        title: "Hemos Decidido",
+        author: "Andrea Francisco",
+        content: `VERSO 1:
+[G]Hemos decidido como [Em]pueblo darte gloria
+[Am]Y en tu nombre hacer [C]guerra [D]espiritual
+
+VERSO 2:
+[G]En el territorio el [Em]enemigo ha oscurecido
+[Am]Ha trabado toda [C]herencia [D]espiritual
+
+PRE-CORO:
+[G]En Jesús mora la luz, [Em]Él es Señor
+[Am]Separados de Él [C]nada [D]podemos
+[G]En el nombre de Jesús [Em]derribense
+[Am]Fortalezas y [C]dominios de [D]maldad
+[G]En el nombre de Jesús
+
+CORO:
+[C]A los oprimidos hoy [G]libertará
+[C]A los que han caido hoy [G]levantará
+[C]Los enceguecidos [G]verán luz
+[C]Los que en cadenas, hoy se [Em]rompan para siempre
+[C]Todo sea para [D]gloria de [G]Jesús
+
+CORO:
+[C]A los oprimidos hoy [G]libertará
+[C]A los que han caido hoy [G]levantará
+[C]Los enceguecidos [G]verán luz
+[C]Los que en cadenas, hoy se [Em]rompan para siempre
+[C]Todo sea para [D]gloria de [G]Jesús
+
+FINAL:
+[Am]Todo sea para gloria, [Em]Todo sea para gloria
+[C]Todo sea para [D]gloria de [G]Jesús`,
+        order: 14,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-015",
+        title: "Yo Tengo Gozo",
+        author: "Iglesia de Cristo Ebenezer Honduras",
+        content: `[Intro] [B] [Em] [B] [Em]
+
+VERSO 1:
+[Em]Estoy contento porque en [B]Él tengo la vida
+[B]La vida eterna que [Em]Jesucristo me dio
+[Em]Yo tengo gozo, tengo [B]paz, tengo alegría
+[B]Ca[C]mi[B]no al [A]cie[G]lo [F#]yo [Em]voy
+
+VERSO 2:
+[B]Esta alegría que yo [Em]siento aquí en mi [B]vida
+[Em]Yo no la cambio por la gloria [B]de este mundo
+[Em]Estaba muerto y Jesús me [B]dio la vida
+[B]Ca[C]mi[B]no al [A]cie[G]lo [F#]yo [Em]voy
+
+CORO:
+[B]Yo tengo gozo, tengo [Em]alegría
+[B]Tengo a Jesús, tengo la paz, tengo la [Em]vida
+[B]Yo tengo gozo, tengo [Em]alegría
+[B]Ca[C]mi[B]no al [A]cie[G]lo [F#]yo [Em]voy`,
+        order: 15,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-016",
+        title: "En El Monte Calvario",
+        author: "Tercer Cielo",
+        content: `VERSO 1:
+[E]En el monte [E7]calvario
+[A]Estaba una [F#m]cruz
+[B]Emblema de [B/D#]afrenta y [E]dolor [B]
+[E]Más yo amo esa [E7]cruz
+[A]Dónde murió mi [F#m]Jesús
+[B]Por sal[B/D#]var al más [E]vil pecador
+
+CORO:
+[B]Oh, yo siempre amaré [E]esa [E7]cruz
+[A]En sus triunfos [B]mi gloria [E]será
+[E7]Y algún día, en [A]vez de una [Am]cruz
+[E]Mi corona, [B]Jesús, me [E]dará
+
+VERSO 2:
+[E]Y aunque el [E7]mundo
+[A]Desprecie la cruz de [F#m]Jesús
+[B]Para mí, tiene [B/D#]suma [E]atracción [B]
+[E]Pues en ella [E7]llevo
+[A]El cordero de [F#m]Dios
+[B]De mi alma [B/D#]la condena[E]ción
+
+CORO:
+[B]Oh, yo siempre amaré [E]esa [E7]cruz
+[A]En sus triunfos [B]mi gloria [E]será
+[E7]Y algún día, en [A]vez de una [Am]cruz
+[E]Mi corona, [B]Jesús, me [E]dará`,
+        order: 16,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-017",
+        title: "Vine a Alabar a Dios",
+        author: "Alabanzas Llamada Final",
+        content: `CORO:
+[C]Vine a alabar a [G]Dios
+[F]Vine a alabar a [Dm]Dios
+[C]Vine a ado[G]rar su [Em]nombre [Am]
+[F]Vine a ala[G]bar a [C]Dios
+
+[C]Vine a alabar a [G]Dios
+[F]Vine a alabar a [Dm]Dios
+[C]Vine a ado[G]rar su [Em]nombre [Am]
+[F]Vine a ala[G]bar a [C]Dios
+
+VERSO 1:
+[F]Él vino a [G]mi vida en un [C]día muy [Em]especial [Am]
+[F]Cambió mi [G]corazón
+[C]Me enseñó un [C7]camino mejor
+
+VERSO 2:
+[F]Y esta es la [G]razón por [C]la que digo [Em]hoy [Am]
+[F]Vine a ala[G]bar a [C]Dios [Am]
+[F]Vine a ala[G]bar a [C]Dios [Am]
+[F]Vine a ala[G]bar a [C]Dios`,
+        order: 17,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
     }
 ];
