@@ -809,5 +809,256 @@ VERSO 2:
         order: 17,
         createdAt: Date.now(),
         updatedAt: Date.now()
+    },
+    {
+        id: "default-018",
+        title: "Jericó - Están Cayendo Los Muros",
+        author: "Barak",
+        content: `[Intro] [Bm7] [G] [D]
+
+VERSO 1:
+[Bm7]Estoy rodeado [G]de estos [D]muros
+[Bm7]Pero sé que [G]pronto [D]caerán
+[Bm7]Se escucha [G]algo alrededor [D]
+[Bm7]Es el sonido [G]de mi liberación [D]
+[Bm7]Es el sonido [G]de mi liberación [D]
+
+CORO:
+[Bm7]Están cayendo [G]los muros [D]
+[Bm7]Dios la victoria [G]nos dio [D]
+[Bm7]Están cayendo [G]los muros [D]
+Los muros de [Bm7]Jericó
+[G]Los muros de [D]Jericó
+
+VERSO 2:
+[Bm7]Ahora estoy [G]maravillado [D]
+[Bm7]Con la obra que Cristo ha hecho en [G]mí [D]
+[Bm7]Aquí con manos [G]levantadas [D]
+[Bm7]Testifico [G]de mi liberación [D]
+[Bm7]Testifico [G]de mi liberación [D]
+
+PUENTE:
+[D]Puedo escuchar el [G]sonido
+De los hijos de [D]Dios
+[D/F#]Puedo escuchar el [G]sonido
+De los hijos de [D]Dios
+
+Somos libres
+Somos libres
+Aleluya
+Somos libres`,
+        order: 18,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-019",
+        title: "Mi Gozo",
+        author: "Barak",
+        content: `[Intro] [A/C#] [D] [A/C#] [D]
+
+VERSO 1:
+[A/C#]Quien [D]podrá separarme de [Em]ti [D]Dios
+[Bm]Si aún cuando te [A]fallo
+[G]Aquí estás
+[D]Tu amor [Em]sobrepasa barreras
+[Bm]Que aún perdido
+[A]Me dices [G]tu hijo soy
+
+PRE-CORO:
+[A]Ni lo alto ni [Bm]lo profundo
+[G]Me pueden alejar de ti
+[A]Ninguna cosa en el [Bm]mundo
+[G]Me puede separar de ti
+
+CORO:
+[D]Mejor es un día en tu casa
+[G]Que mil años lejos de [Bm]ti Dios
+[F#m]Tú eres mi [G]gozo Dios
+[D]En ti todo es nuevo
+[G]Borras mi pasado
+[Bm]Ya no hay tristeza
+[F#m]Tú eres mi [G]gozo Dios
+[Em]Tú eres mi [A/C#]gozo, [D]Dios
+
+VERSO 2:
+[A/C#]Quien [D]podrá separarme de [Em]ti [D]Dios
+[Bm]Si aún cuando te [A]fallo
+[G]Aquí estás
+[D]Tu amor [Em]sobrepasa barreras
+[Bm]Que aún perdido
+[A]Me dices [G]tu hijo soy
+
+PRE-CORO:
+[A]Ni lo alto ni [Bm]lo profundo
+[G]Me pueden alejar de ti
+[A]Ninguna cosa en el [Bm]mundo
+[G]Me puede separar de ti
+
+CORO:
+[D]Mejor es un día en tu casa
+[G]Que mil años lejos de [Bm]ti Dios
+[F#m]Tú eres mi [G]gozo Dios
+[D]En ti todo es nuevo
+[G]Borras mi pasado
+[Bm]Ya no hay tristeza
+[F#m]Tú eres mi [G]gozo Dios
+[Em]Tú eres mi [Bm]gozo, Dios
+
+PUENTE:
+[A]Levanta tus manos, mueve tus pies
+[Bm]Da vueltas y vueltas, grita amén
+[A]Levanta tus manos, mueve tus pies
+[Bm]Da vueltas y vueltas, grita amén
+[G]Levanta tus manos, mueve tus pies
+[D]Da vueltas y vueltas, grita amén
+[A]Levanta tus manos, mueve tus pies
+[Bm]Da vueltas y vueltas, grita amén
+[G]Levanta tus manos, mueve tus pies
+[D]Da vueltas y vueltas, grita amén
+[A]Levanta tus manos, mueve tus pies
+[Bm]Da vueltas y vueltas, grita amén
+[A] [Bm]Grita [G]amén
+[A]Grita [Bm]amén
+[G]Grita amén
+
+CORO FINAL:
+[D]Mejor es un día en tu casa
+[G]Que mil años lejos de [Bm]ti Dios
+[F#m]Tú eres mi [G]gozo Dios
+[D]En ti todo es nuevo
+[G]Borras mi pasado
+[Bm]Ya no hay tristeza
+[F#m]Tú eres mi [G]gozo Dios
+[Em]Tú eres mi [A/C#]gozo, [D]Dios
+[G7]Amén
+[D]Grita amén`,
+        order: 19,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-020",
+        title: "De Gloria En Gloria",
+        author: "Marco Barrientos",
+        content: `[Intro] [Eb] [F] [Gm] [F] [Eb] [F] [Gm] [Bb]
+
+VERSO 1:
+[Eb]Yo, quiero ver, [Bb]Tu luz brillando en [Gm]mí
+[F]A través de mí
+[Eb]Ser un [Bb]altar, que todos puedan [Gm]ver
+[F]Que todos oigan que
+
+PRE-CORO:
+[Eb]Tú eres vida, la [Bb]esperanza
+[Gm]Perfecta gracia que me ha [F]rescatado
+[Eb]Tú eres vida, la [Bb]esperanza
+[Gm]Perfecta gracia que me ha [F]rescatado
+
+CORO:
+[Eb]Ya no vivo yo, [Bb]Cristo vive en mí
+[Gm]Barro quiero ser, en [F]Tus manos
+[Eb]Ya no vivo yo, [Bb]Cristo vive en mí
+[Gm]Barro quiero ser, en [F]Tus manos
+
+PUENTE:
+[Eb]De gloria en [Bb]gloria, Te veo [Gm]Dios [F]
+[Eb]De gloria en [Bb]gloria
+[Gm]Transformado soy por Tu [F]Espíritu
+
+CORO:
+[Eb]Ya no vivo yo, [Bb]Cristo vive en mí
+[Gm]Barro quiero ser, en [F]Tus manos
+[Eb]Ya no vivo yo, [Bb]Cristo vive en mí
+[Gm]Barro quiero ser, en [F]Tus manos
+
+PUENTE:
+[Eb]De gloria en [Bb]gloria, Te veo [Gm]Dios [F]
+[Eb]De gloria en [Bb]gloria
+[Gm]Transformado soy por Tu [F]Espíritu`,
+        order: 20,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-021",
+        title: "Que Ruja el León",
+        author: "TOMATULUGAR",
+        content: `[Intro] [C#m] [B] [A] [F#m] [C#m]
+
+VERSO 1:
+[C#m]El descendiente de David
+[B]El hombre más notable
+[A]Él ama la [F#m]justicia
+[C#m]Y odia la iniquidad
+
+PRE-CORO:
+[C#m]Que ruja el León
+[B]Que la tierra se estremezca
+[A]Ante la [F#m]majestad de [C#m]JESÚS
+
+CORO:
+[C#m]Saaaaantoooooo [B]
+[A]Saaaaantoooooo [F#m] [B]
+[C#m]Saaaaantoooooo [B]
+[A]Dios Poderoso [F#m] [B]
+[C#m]Que ruja el León
+[B]Que la tierra se estremezca
+[A]Ante la [F#m]majestad de [C#m]JESÚS`,
+        order: 21,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    },
+    {
+        id: "default-022",
+        title: "Oceanos",
+        author: "Evan Craft",
+        content: `[Intro] [Bm] [A/C#] [D] [A] [G]
+
+VERSO 1:
+[Bm]Tu voz me llama a [A/C#]las [D]aguas
+[A/C#]Donde mis pies pueden [G]fallar
+[Bm]Y ahí te encuentro en [A/C#]lo [D]incierto
+[A]Caminaré sobre el [G]mar
+
+CORO:
+[G]A tu [D]nombre cla[A]maré
+[G]En ti mis [D]ojos fij[A]aré
+[G]En tempestad
+[D]Descansaré en tu [A]poder
+[G]Pues tuyo soy [A]hasta el final
+
+[Bm] [A/C#] [D] [A] [G]
+
+VERSO 2:
+[Bm]Tu gracia abunda en [A/C#]la [D]tormenta
+[A]Tu mano Dios, me [G]guiará
+[Bm]Cuando hay temor en [A/C#]mi [D]camino
+[A]Tú eres fiel y no [G]cambiarás
+
+CORO:
+[G]A tu [D]nombre cla[A]maré
+[G]En ti mis [D]ojos fij[A]aré
+[G]En tempestad
+[D]Descansaré en tu [A]poder
+[G]Pues tuyo soy [A]hasta el final
+
+PUENTE:
+[Bm]Que tu Espíritu me guíe sin [G]fronteras
+[D]Más allá de las barreras
+[A]A donde tú me llames
+[Bm]Tú me llevas más allá de lo [G]soñado
+[D]Donde puedo estar confiado
+[A]Al estar en tu presencia
+
+CORO FINAL:
+[G]A tu [D]nombre cla[A]maré
+[G]En ti mis [D]ojos fij[A]aré
+[G]En tempestad
+[D]Descansaré en tu [A]poder
+[G]Pues tuyo soy [D]hasta el final`,
+        order: 22,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
     }
 ];
