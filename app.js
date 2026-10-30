@@ -115,6 +115,75 @@ function showView(viewName) {
   closeSidebar();
 }
 
+function getActiveView() {
+  const active = document.querySelector('.view.active');
+  return active ? active.id.replace('view-', '') : 'home';
+}
+
+function renderView(viewName, state = {}) {
+  switch (viewName) {
+    case 'culto':
+      renderCultoList();
+      showView('culto');
+      break;
+    case 'search':
+      renderSongList(searchResults, getFilteredSongs('order', searchFull.value));
+      showView('search');
+      break;
+    case 'add':
+      if (state.editId) {
+        const song = songs.find(s => s.id === state.editId);
+        if (song) {
+          fillForm(song);
+        } else {
+          resetForm();
+        }
+      } else {
+        resetForm();
+      }
+      showView('add');
+      break;
+    case 'song':
+      if (state.source === 'culto') {
+        const cultoSong = cultoSongs.find(s => s.cultoId === state.cultoId);
+        if (cultoSong) {
+          openCultoSong(cultoSong, { push: false, from: state.from });
+        } else {
+          const fallback = state.from || 'culto';
+          history.replaceState({ view: fallback }, '');
+          renderView(fallback);
+        }
+      } else {
+        const song = songs.find(s => s.id === state.songId);
+        if (song) {
+          openSong(song.id, { push: false, from: state.from });
+        } else {
+          const fallback = state.from || 'home';
+          history.replaceState({ view: fallback }, '');
+          renderView(fallback);
+        }
+      }
+      break;
+    case 'home':
+    default:
+      refreshList();
+      showView('home');
+      break;
+  }
+}
+
+function navigate(viewName, state = {}) {
+  const next = { ...state, view: viewName };
+  history.pushState(next, '');
+  renderView(viewName, next);
+}
+
+function replaceNavigation(viewName, state = {}) {
+  const next = { ...state, view: viewName };
+  history.replaceState(next, '');
+  renderView(viewName, next);
+}
+
 function openSidebar() {
   sidebar.classList.add('open');
   overlay.classList.add('active');
@@ -330,7 +399,10 @@ function renderCultoList() {
   });
 }
 
-function openCultoSong(song) {
+function openCultoSong(song, options = {}) {
+  const push = options.push !== false;
+  const from = options.from || getActiveView();
+
   currentSongId = song.cultoId;
   currentSource = 'culto';
   currentTranspose = 0;
@@ -344,6 +416,10 @@ function openCultoSong(song) {
 
   renderSongContent(song.content, 0);
   showView('song');
+
+  if (push) {
+    history.pushState({ view: 'song', source: 'culto', cultoId: song.cultoId, from }, '');
+  }
 }
 
 function isInCulto(songId) {
@@ -358,9 +434,12 @@ function getDisplayedSong() {
 }
 
 
-function openSong(id) {
+function openSong(id, options = {}) {
   const song = songs.find(s => s.id === id);
   if (!song) return;
+
+  const push = options.push !== false;
+  const from = options.from || getActiveView();
 
   currentSongId = id;
   currentSource = 'library';
@@ -383,6 +462,10 @@ function openSong(id) {
 
   renderSongContent(song.content, 0);
   showView('song');
+
+  if (push) {
+    history.pushState({ view: 'song', source: 'library', songId: id, from }, '');
+  }
 }
 
 function renderSongContent(content, transpose) {
@@ -492,10 +575,7 @@ overlay.addEventListener('click', closeSidebar);
 // Nav
 navBtns.forEach(btn => {
   btn.addEventListener('click', () => {
-    const view = btn.dataset.view;
-    if (view === 'add') resetForm();
-    if (view === 'culto') renderCultoList();
-    showView(view);
+    navigate(btn.dataset.view);
   });
 });
 
@@ -538,20 +618,22 @@ songForm.addEventListener('submit', (e) => {
   }
 
   resetForm();
-  refreshList();
-  showView('home');
+  replaceNavigation('home');
 });
 
 // Cancel edit
 cancelEditBtn.addEventListener('click', () => {
   resetForm();
-  showView('home');
+  replaceNavigation('home');
 });
 
 // Back to list
 backToListBtn.addEventListener('click', () => {
-  showView('home');
-  refreshList();
+  if (history.state && history.state.view === 'song') {
+    history.back();
+  } else {
+    renderView(currentSource === 'culto' ? 'culto' : 'home');
+  }
 });
 
 // Edit song
@@ -564,7 +646,7 @@ editSongBtn.addEventListener('click', () => {
     song = songs.find(s => s.id === displayed.originalId) || displayed;
   }
   fillForm(song);
-  showView('add');
+  navigate('add', { editId: song.id });
 });
 
 // Delete song
@@ -573,13 +655,21 @@ deleteSongBtn.addEventListener('click', () => {
 
   if (currentSource === 'culto') {
     removeFromCulto(currentSongId);
-    renderCultoList();
-    showView('culto');
   } else {
     deleteSong(currentSongId);
-    showView('home');
-    refreshList();
   }
+
+  if (history.state && history.state.view === 'song') {
+    history.back();
+  } else {
+    replaceNavigation(currentSource === 'culto' ? 'culto' : 'home');
+  }
+});
+
+// Browser / mobile back
+window.addEventListener('popstate', (e) => {
+  const state = e.state || { view: 'home' };
+  renderView(state.view || 'home', state);
 });
 
 // Transpose
@@ -676,4 +766,5 @@ clearCultoBtn.addEventListener('click', () => {
 // =============================================
 loadSongs();
 loadCulto();
+history.replaceState({ view: 'home' }, '');
 refreshList();
