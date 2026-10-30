@@ -358,6 +358,7 @@ form {
 .transpose-controls {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
   padding: 0.5rem;
@@ -365,6 +366,18 @@ form {
   border: 1px solid var(--border);
   border-radius: 8px;
   width: fit-content;
+}
+
+.controls-sep {
+  width: 1px;
+  align-self: stretch;
+  background: var(--border);
+  margin: 0 0.25rem;
+}
+
+.transpose-controls .btn-sm:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 #currentTone {
