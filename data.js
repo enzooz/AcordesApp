@@ -1675,5 +1675,26 @@ De Israe[Cm]l
         order: 34,
         createdAt: Date.now(),
         updatedAt: Date.now()
+    },
+    {
+        id: "default-035",
+        title: "La Única Razón",
+        author: "Danilo Montero",
+        content: `
+Intro
+        [Bm]  [A]  [D]  [G]
+        [Bm]  [A]
+
+[Bm]La única razón de m[G]i adoració[D]n  eres tú [A]mi jesús
+[Bm]El único motivo par[G]a vivir[D] eres tú [A]mi señor
+[Bm]Mi única verda[G]d está en [D]ti eres mi luz y [A]mi salvación
+[Bm]Mi único amor ere[G]s tu mi señor [D]y por siempr[A]e te alabaré
+
+[Bm]Tú eres tod[G]o poderos[D]o eres grand[A]e y majestuoso
+[Bm]Eres fuerte[G] invencible [D]y no hay nad[A]ie como tú
+`,
+        order: 35,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
     }
 ];

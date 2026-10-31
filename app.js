@@ -1,7 +1,7 @@
 const STORAGE_KEY = 'acordesSongs';
 const CULTO_KEY = 'acordesCulto';
 const SEED_KEY = 'acordesSeedVersion';
-const SEED_VERSION = 6;
+const SEED_VERSION = 7;
 
 const ALIGN_FIX_IDS = new Set([
   'default-023','default-024','default-025','default-026',
@@ -423,7 +423,7 @@ function openCultoSong(song, options = {}) {
 
   currentSongId = song.cultoId;
   currentSource = 'culto';
-  currentTranspose = 0;
+  currentTranspose = getStoredTranspose(song);
   stopAutoScroll();
 
   if (push) {
@@ -432,11 +432,11 @@ function openCultoSong(song, options = {}) {
 
   songTitleEl.textContent = song.title;
   songAuthorEl.textContent = song.author;
-  currentToneEl.textContent = '0';
+  currentToneEl.textContent = formatTranspose(currentTranspose);
 
   addToCultoBtn.style.display = 'none';
 
-  renderSongContent(song.content, 0);
+  renderSongContent(song.content, currentTranspose);
   showView('song');
 
   const state = { view: 'song', source: 'culto', cultoId: song.cultoId, from };
@@ -516,7 +516,7 @@ function openSong(id, options = {}) {
 
   currentSongId = id;
   currentSource = 'library';
-  currentTranspose = 0;
+  currentTranspose = getStoredTranspose(song);
   stopAutoScroll();
 
   if (push) {
@@ -525,7 +525,7 @@ function openSong(id, options = {}) {
 
   songTitleEl.textContent = song.title;
   songAuthorEl.textContent = song.author;
-  currentToneEl.textContent = '0';
+  currentToneEl.textContent = formatTranspose(currentTranspose);
 
   addToCultoBtn.style.display = '';
 
@@ -537,7 +537,7 @@ function openSong(id, options = {}) {
     addToCultoBtn.classList.remove('added');
   }
 
-  renderSongContent(song.content, 0);
+  renderSongContent(song.content, currentTranspose);
   showView('song');
 
   const state = { view: 'song', source: 'library', songId: id, from };
@@ -608,6 +608,32 @@ function renderSongContent(content, transpose) {
       songDisplay.appendChild(lyricLine);
     }
   });
+}
+
+function getStoredTranspose(song) {
+  const value = Number(song && song.transpose);
+  return Number.isFinite(value) ? value : 0;
+}
+
+function formatTranspose(amount) {
+  return amount > 0 ? '+' + amount : String(amount);
+}
+
+function setTranspose(amount) {
+  currentTranspose = amount;
+  currentToneEl.textContent = formatTranspose(amount);
+
+  const song = getDisplayedSong();
+  if (!song) return;
+
+  song.transpose = amount;
+  if (currentSource === 'culto') {
+    saveCulto();
+  } else {
+    saveSongs();
+  }
+
+  renderSongContent(song.content, amount);
 }
 
 function transposeChord(chord, amount) {
@@ -760,24 +786,15 @@ nextSongBtn.addEventListener('click', () => goToAdjacentSong(1));
 
 // Transpose
 transposeUpBtn.addEventListener('click', () => {
-  currentTranspose++;
-  currentToneEl.textContent = currentTranspose > 0 ? '+' + currentTranspose : currentTranspose;
-  const song = getDisplayedSong();
-  if (song) renderSongContent(song.content, currentTranspose);
+  setTranspose(currentTranspose + 1);
 });
 
 transposeDownBtn.addEventListener('click', () => {
-  currentTranspose--;
-  currentToneEl.textContent = currentTranspose > 0 ? '+' + currentTranspose : currentTranspose;
-  const song = getDisplayedSong();
-  if (song) renderSongContent(song.content, currentTranspose);
+  setTranspose(currentTranspose - 1);
 });
 
 transposeResetBtn.addEventListener('click', () => {
-  currentTranspose = 0;
-  currentToneEl.textContent = '0';
-  const song = getDisplayedSong();
-  if (song) renderSongContent(song.content, 0);
+  setTranspose(0);
 });
 
 // Auto scroll
