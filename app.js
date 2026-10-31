@@ -1,7 +1,7 @@
 const STORAGE_KEY = 'acordesSongs';
 const CULTO_KEY = 'acordesCulto';
 const SEED_KEY = 'acordesSeedVersion';
-const SEED_VERSION = 4;
+const SEED_VERSION = 5;
 
 const CHORDS = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 
