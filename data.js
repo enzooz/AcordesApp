@@ -1066,69 +1066,62 @@ CORO FINAL:
         title: "Al Estar Aquí",
         author: "Danilo Montero",
         content: `
-INTRO:
-[F#m7] [E] [D] [A/C#] [Bm7] [D]
-[E4] [E] [A4] [A] [G] [D/F#]
-[F6] [E7(4/9)] [E7(9-)]
-
-Primera Parte:
-[A] [E/G#] [F#m9] Al estar en la presencia de Tu divinidad
-[D7M] [Bm7] [E] [D/F#] Y al contemplar la hermosura de Tu santidad
-[A] [F5-] [D] [A/C#] Mi espíritu se alegra en Tu majestad
-[Bm7] [E7(4/9)] [E] Te adoro a Tí, te adoro a Tí
-
-Segunda Parte:
-[A] [E/G#] [F#m9] [C#m] Cuando veo la grandeza de tu dulce amor
-[D7M] [Bm7] [E/G#] [D/F#] Y compruebo la pureza de Tu corazón
-[A] [C#5+] [D] [A/C#] Mi espíritu se alegra en Tu majestad
-[Bm7] [E7(4/9)] [E] Te adoro a Tí, te adoro a Tí
-
-Estribillo:
-[A4] [A] Y al estar aquí
-[F#m7] [D4+] [D] Delante de Tí te adora_ré
-[A/C#] [Bm7] Postrado ante Tí
-[E7(4/9)] [E] Mi corazón te adora oh Dios
-[A4] [A] Y siempre quiero estar
-[C#7(4/9-)] [C#7(9-)] Para ado_______rar
-[D] [Bm7] [Dm/F] Y contemplar Tu santidad
-[A/E] [E] [E9-] Te adoro a Tí Señor, te adoro a Tí
-
-( [F] [Dm] [Am7(9)] [D/F#] [E/G#] )
-
-Primera Parte:
-[A] [E/G#] [F#m9] Al estar en la presencia de Tu divinidad
-[D7M] [Bm7] [E] [D/F#] Y al contemplar la hermosura de Tu santidad
-[A] [F5-] [D] [A/C#] Mi espíritu se alegra en Tu majestad
-[Bm7] [E7(4/9)] [E] Te adoro a Tí, te adoro a Tí
-
-Segunda Parte:
-[A] [E/G#] [F#m9] [C#m] Cuando veo la grandeza de tu dulce amor
-[D7M] [Bm7] [E/G#] [D/F#] Y compruebo la pureza de Tu corazón
-[A] [C#5+] [D] [A/C#] Mi espíritu se alegra en Tu majestad
-[Bm7] [E7(4/9)] [E] Te adoro a Tí, te adoro a Tí
-
-Estribillo:
-[A4] [A] Y al estar aquí
-[F#m7] [D4+] [D] Delante de Tí te adora_ré
-[A/C#] [Bm7] Postrado ante Tí
-[E7(4/9)] [E] Mi corazón te adora oh Dios
-[A4] [A] Y siempre quiero estar
-[C#7(4/9-)] [C#7(9-)] Para ado_______rar
-[D] [Bm7] [Dm/F] Y contemplar Tu santidad
-[A/E] [E] Te adoro a Tí Señor, te adoro a Tí
-[A4] [A] Y al estar aquí
-[F#m7] [D4+] [D] Delante de Tí te adora_ré
-[A/C#] [Bm7] Postrado ante Tí
-[E7(4/9)] [E] Mi corazón te adora oh Dios
-[A4] [A] Y siempre quiero estar
-[C#7(4/9-)] [C#7(9-)] Para ado_______rar
-[D] [Bm7] [Dm/F] Y contemplar Tu santidad
-[A/E] [E] Te adoro a Tí Señor
-[E9-] [F#m7] [E] Te adoro a Tí
-[Bm7] [E] Te adoro a Tí Señor
-[Bm7] [Bm5-] [F#m7] [E] Te ado________ro a Tí
-[Bm7] [E] Te adoro a Tí Señor
-[Dm] [E7(4/9-)] [E7(9)] [A] Te ado___________________ro a Tí
+Intro
+        [F#m7]  [E]  [D]  [A/C#]  [Bm7]  [D]
+        [E4]  [E]  [A4]  [A]  [G]  [D/F#]
+        [F6]  [E7(4/9)]  [E7(9-)]
+First Part
+Al est[A]ar en la pre[E/G#]sencia de T[F#m9]u divinidad
+Y al contempl[D7M]ar la her[Bm7]mosura d[E]e Tu sa[D/F#]ntidad
+Mi esp[A]íritu se a[F5-]legra en [D]Tu maje[A/C#]stad
+Te ad[Bm7]oro a Tí, te[E7(4/9)] a[E]doro a   Tí
+Second Part
+Cuando v[A]eo la gran[E/G#]deza de[F#m9] tu du[C#m]lce amor
+Y compru[D7M]ebo la [Bm7]pureza d[E/G#]e T[D/F#]u corazón
+Mi esp[A]íritu se a[C#5+]legra en[D] Tu maj[A/C#]estad
+Te ad[Bm7]oro a Tí, te[E7(4/9)] a[E]doro a   Tí
+Chorus
+Y al est[A4]ar a[A]quí
+Del[F#m7]ante de Tí t[D4+]e [D]adora_ré
+Postr[A/C#]ad[Bm7]o   ante Tí
+Mi corazón te ad[E7(4/9)]or[E]a oh Dios
+Y siempre qui[A4]ero e[A]star
+Para [C#7(4/9-)]ad[C#7(9-)]o_______rar
+Y c[D]ontemp[Bm7]lar [Dm/F]Tu santidad
+Te ad[A/E]oro a Tí [E]Señor, t[E9-]e adoro a Tí
+  [F]  [Dm]  [Am7(9)]  [D/F#]  [E/G#]
+First Part
+Al est[A]ar en la pre[E/G#]sencia de T[F#m9]u divinidad
+Y al contempl[D7M]ar la her[Bm7]mosura d[E]e Tu sa[D/F#]ntidad
+Mi esp[A]íritu se a[F5-]legra en [D]Tu maje[A/C#]stad
+Te ad[Bm7]oro a Tí, te[E7(4/9)] a[E]doro a   Tí
+Second Part
+Cuando v[A]eo la gran[E/G#]deza de[F#m9] tu du[C#m]lce amor
+Y compru[D7M]ebo la [Bm7]pureza d[E/G#]e T[D/F#]u corazón
+Mi esp[A]íritu se a[C#5+]legra en[D] Tu maj[A/C#]estad
+Te ad[Bm7]oro a Tí, te[E7(4/9)] a[E]doro a   Tí
+Chorus
+Y al est[A4]ar a[A]quí
+Del[F#m7]ante de Tí t[D4+]e [D]adora_ré
+Postr[A/C#]ad[Bm7]o   ante Tí
+Mi corazón te ad[E7(4/9)]or[E]a oh Dios
+Y siempre qui[A4]ero e[A]star
+Para [C#7(4/9-)]ad[C#7(9-)]o_______rar
+Y c[D]ontemp[Bm7]lar [Dm/F]Tu santidad
+Te ad[A/E]oro a Tí [E]Señor, te adoro a Tí
+Y al est[A4]ar a[A]quí
+Del[F#m7]ante de Tí t[D4+]e [D]adora_ré
+Postr[A/C#]ad[Bm7]o   ante Tí
+Mi corazón te ad[E7(4/9)]or[E]a oh Dios
+Y siempre qui[A4]ero e[A]star
+Para [C#7(4/9-)]ad[C#7(9-)]o_______rar
+Y c[D]ontemp[Bm7]lar [Dm/F]Tu santidad
+Te ad[A/E]oro a Tí [E]Señor
+Te ad[E9-]oro [F#m7]a [E]Tí
+Te ad[Bm7]oro a Tí [E]Señor
+Te ad[Bm7]o_[Bm5-]______[F#m7]_r[E]o a Tí
+Te ad[Bm7]oro a Tí [E]Señor
+Te ad[Dm]o_[E7(4/9-)]__[E7(9)]_______[A]_________ro a Tí
 `,
         order: 23,
         createdAt: Date.now(),
@@ -1139,120 +1132,117 @@ Estribillo:
         title: "Quiero Conocer a Jesús (Yeshua) / Nuestro Dios (part. Sofía Mancipe)",
         author: "Generación 12",
         content: `
-INTRO:
-[C] [D] [Em] [Bm6-]
-[C] [D] [Em] [Bm6-]
-
-Fingerpicking - Intro:
-[C] [D] [Em] [Bm6-]
-E|--------------------------------------| B|-------------------------0------------| G|-----0---------0-----------0-----0----| D|--2----2----4----4----5-------0----0--| A|--3---------5---------7-------2-------| E|--------------------------------------|
-
-Solo - Intro:
-[C] [D] [Em] [Bm6-]
-E|--------------------------------------| B|--5---------7------8--7-8/-12\\--7-----| G|--------------------------------------| D|--------------------------------------| A|--------------------------------------| E|--------------------------------------|
-
-Primera parte:
-[C] [D] Mi orgullo me sacó del jardín
-[Em] [Bm6-] Su humildad puso el jardín en mí
-[C] Y si vendiera todo lo que tengo
-[D] A cambio de su amor
-[Em] [Bm6-] Yo fallaría
-[C] Porque su amor no se compra
-[D] [Em] Ni se merece, su amor es un regalo
-[Bm] De gracia se recibe
-[C] Porque su amor no se compra
-[D] [Em] Ni se merece, su amor es un regalo
-[Bm] De gracia se recibe
-
-Pre-Chorus:
-[C] [D] Quiero conocer a Jesús
-[Em] [Bm6-] Yo Quiero conocer a Jesús
-[C] [D] Quiero conocer a Jesús
-[Em] [Bm6-] Quiero conocer a Jesús
-
-First Part:
-[C] [D] Mi orgullo me sacó del jardín
-[Em] [Bm6-] Su humildad puso el jardín en mí
-[C] Y si vendiera todo lo que tengo
-[D] A cambio de su amor
-[Em] [Bm6-] Yo fallaría
-[C] Porque su amor no se compra
-[D] [Em] Ni se merece, su amor es un regalo
-[Bm] De gracia se recibe
-[C] Porque su amor no se compra
-[D] [Em] Ni se merece, su amor es un regalo
-[Bm] De gracia se recibe
-
-Chorus:
-[C] [D] Quiero conocer a Jesús
-[Em] [Bm] Yo Quiero conocer a Jesús
-[C] [D] Quiero conocer a Jesús
-[Em] [Bm] Quiero conocer a Jesús
-[C] [D] Quiero conocer a Jesús
-[Em] [Bm] Yo Quiero conocer a Jesús
-[C] [D] Quiero conocer a Jesús
-[Em] [Bm] Quiero conocer a Jesús
-[C] Ser hallado en Él
-[D] [Em] [Bm] Ser hallado en Él Ser hallado en Él
-
-Interlude:
-[C] [D] [Em] [Bm]
-
-Tab - Solo:
-[C] [D] [Em] [Bm]
-E|--------------------------------------| B|--3-5---3-5----7--8---7-8/12-12\\7--7--| G|--------------------------------------| D|--------------------------------------| A|--------------------------------------| E|--------------------------------------|
-
-Bridge:
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-
-Chorus:
-[C] [Em] Mi amado es, el más bello entre
-[G] [Bm7] Millares y millares
-[C] [Em] Mi amado es, el más bello entre
-[G] [Bm7] Millares y millares
-[C] [Em] Mi amado es, el más bello entre
-[G] [Bm7] Millares y millares
-[C] [Em] Mi amado es, el más bello entre
-[G] [Bm7] Millares y millares
-
-Bridge:
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-[C] [D] [Em] [Bm] Yeshua aaa aaaa aaaa
-
-( [C] [D] [Em] )
-[Bm] Yeshua
-[C7M] Yeshua
-[D] [Em] [Bm] Je_sús
-
-Ending:
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[C] [D] [Em] Nuestro Dios reina_rá
-[D/F#] [G] Por siempre tú reina_rás
-[G] Yeshua
+Intro
+        [C]  [D]  [Em]  [Bm6-]
+        [C]  [D]  [Em]  [Bm6-]
+Fingerpicking - Intro
+E|--[C]---------[D]---------[Em]------[Bm6-]------------|
+B|-------------------------0------------|
+G|-----0---------0-----------0-----0----|
+D|--2----2----4----4----5-------0----0--|
+A|--3---------5---------7-------2-------|
+E|--------------------------------------|
+E|--[C]---------[D]------[Em]-----------[Bm6-]----------|
+B|--5---------7------8--7-8/-12\\--7-----|
+G|--------------------------------------|
+D|--------------------------------------|
+A|--------------------------------------|
+E|--------------------------------------|
+Mi org[C]ullo me sacó del jar[D]dín
+Su humild[Em]ad puso el jardín en[Bm6-] mí
+Y si vend[C]iera todo lo que tengo
+A c[D]ambio de su amor
+Yo fallar[Em]ía[Bm6-]
+Porque su am[C]or no se compra
+N[D]i se merece, su a[Em]mor es un regalo
+De gr[Bm]acia se recibe
+Porque su am[C]or no se compra
+N[D]i se merece, su a[Em]mor es un regalo
+De gr[Bm]acia se recibe
+Pre-Chorus
+Qu[C]iero conocer a Je[D]sús
+Yo Qu[Em]iero conocer a J[Bm6-]esús
+Qu[C]iero conocer a Je[D]sús
+Qu[Em]iero conocer a J[Bm6-]esús
+First Part
+Mi org[C]ullo me sacó del jar[D]dín
+Su humild[Em]ad puso el jardín en[Bm6-] mí
+Y si vend[C]iera todo lo que tengo
+A c[D]ambio de su amor
+Yo fallar[Em]ía[Bm6-]
+Porque su am[C]or no se compra
+N[D]i se merece, su a[Em]mor es un regalo
+De gr[Bm]acia se recibe
+Porque su am[C]or no se compra
+N[D]i se merece, su a[Em]mor es un regalo
+De gr[Bm]acia se recibe
+Chorus
+Qu[C]iero conocer a Je[D]sús
+Yo Qu[Em]iero conocer a J[Bm]esús
+Qu[C]iero conocer a Je[D]sús
+Qu[Em]iero conocer a J[Bm]esús
+Qu[C]iero conocer a Je[D]sús
+Yo Qu[Em]iero conocer a J[Bm]esús
+Qu[C]iero conocer a Je[D]sús
+Qui[Em]ero conocer a J[Bm]esús
+S[C]er hallado en Él
+Ser h[D]allado en[Em] É[Bm]l
+Ser hallado en Él
+Interlude
+            [C]  [D]  [Em]  [Bm]
+Tab - Solo
+E|----[C]-------------[D]--[Em]-----------[Bm]--------|
+B|--3-5---3-5----7--8---7-8/12-12\\7--7--|
+G|--------------------------------------|
+D|--------------------------------------|
+A|--------------------------------------|
+E|--------------------------------------|
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Chorus
+Mi am[C]ado es, el más [Em]bello entre
+Mill[G]ares y mil[Bm7]lares
+Mi am[C]ado es, el más [Em]bello entre
+Mill[G]ares y mil[Bm7]lares
+Mi am[C]ado es, el más [Em]bello entre
+Mill[G]ares y mil[Bm7]lares
+Mi am[C]ado es, el más [Em]bello entre
+Mill[G]ares y mil[Bm7]lares
+Bridge
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+Yesh[C]ua a[D]aa[Em]  a[Bm]aaa aaaa
+  [C]  [D]  [Em]
+Yeshua [Bm]
+Yesh[C7M]ua
+J[D]e_[Em]sú[Bm]s
+Ending
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Nuestro D[C]ios rei[D]na[Em]_rá
+Por siempre tú r[D/F#]ei[G]na_rás
+Yesh[G]ua
 `,
         order: 24,
         createdAt: Date.now(),
@@ -1263,15 +1253,14 @@ Ending:
         title: "Si Te Tengo a Ti, Lo Tengo Todo",
         author: "Marcos Brunet",
         content: `
-Chorus:
-[E/G#] [A] [B] [C#m] Cristo Jesús, eres mi plenitud
-[G#m] [A] [F#m] [E] Cristo Jesús, eres mi pleni_tud
-
-First Part:
-[E/G#] [A] Si te tengo a Ti, lo tengo todo
-[B] [C#m] [G#m] Mi amado, mi tesoro
-[A] Fuera de Ti, nada deseo
-[F#m] [E] Señor
+Chorus
+Cr[E/G#]isto[A] Jesús, eres [B]mi [C#m]plenitud
+Cr[G#m]isto [A]Jesús, eres m[F#m]i [E]pleni_tud
+First Part
+Si te t[E/G#]engo a[A] Ti,  lo tengo todo
+M[B]i a[C#m]mado, mi[G#m] tesoro
+Fuera de Ti,[A]  nada deseo
+S[F#m]eñ[E]or
 `,
         order: 25,
         createdAt: Date.now(),
@@ -1282,50 +1271,47 @@ First Part:
         title: "La Cosecha",
         author: "Marco Barrientos",
         content: `
-INTRO:
-[A] [B] [C] [G] [Ab]
-[A] [C] [G] [Ab] [A]
-[C] [G] [Ab] [A]
-[A] [B] [C] [G] [Ab]
-[A] [C] [G] [Ab] [A]
-[C] [G] [Ab] [A]
-
-Tab - Intro:
-E|---1--------1----------1---------| x2 B|-2---0-1-2----0-0-1-2------0-1-2-| G|---------------------------------| D|---------------------------------| A|---------------------------------| E|---------------------------------|
-
-Primera Parte:
-[Am] [F] [C] [E] Alza tus ojos y mira, la cosecha esta lista
-[Am] [G] [F] [E] El tiempo a llegado, la mies esta madura
-[Am] [F] [C] [E] Esfuerzate y se valiente levantate y predica
-[Am] [G] [F] [E] A todas las naciones, que Cristo es la vida
-
-Chorus:
-[Dm] [Em] [F] [G] [Am] Y se - ra llena la tierra de su gloria
-[G] [F] [G] [E] [Am] Se cu - bri - ra como las aguas cubren la mar
-[Dm] [Em] [F] [G] [Am] Y se - ra llena la tierra de su gloria
-[G] [F] [G] [E] [Am] Se cu - bri - ra como las aguas cubren la mar
-
-Second Part:
-[Am] [F] [C] [E] Alza tus ojos y mira, la cosecha esta lista
-[Am] [G] [F] [E] El tiempo a llegado, la mies esta madura
-[Am] [F] [C] [E] Esfuerzate y se valiente levantate y predica
-[Am] [G] [F] [E] A todas las naciones, que Cristo es la vida
-
-Chorus:
-[Dm] [Em] [F] [G] [Am] Y se - ra llena la tierra de su gloria
-[G] [F] [G] [E] [Am] Se cu - bri - ra como las aguas cubren la mar
-[Dm] [Em] [F] [G] [Am] Y se - ra llena la tierra de su gloria
-[G] [F] [G] [E] [Am] Se cu - bri - ra como las aguas cubren la mar
-
-Estribillo:
-[E] [Am] [E] [Am] No, no hay otro nombre, dado a los hombres
-[Dm] [Am] [F] [E] Je - su - cris - to, es el señor
-
-Chorus:
-[Dm] [Em] [F] [G] [Am] Y se - ra llena la tierra de su gloria
-[G] [F] [G] [E] [Am] Se cu - bri - ra como las aguas cubren la mar
-[Dm] [Em] [F] [G] [Am] Y se - ra llena la tierra de su gloria
-[G] [F] [G] [E] [Am] Se cu - bri - ra como las aguas cubren la mar
+Intro
+        [A]  [B]  [C]  [G]  [Ab]
+        [A]  [C]  [G]  [Ab]  [A]
+        [C]  [G]  [Ab]  [A]
+        [A]  [B]  [C]  [G]  [Ab]
+        [A]  [C]  [G]  [Ab]  [A]
+        [C]  [G]  [Ab]  [A]
+Tab - Intro
+E|---1--------1----------1---------| x2
+B|-2---0-1-2----0-0-1-2------0-1-2-|
+G|---------------------------------|
+D|---------------------------------|
+A|---------------------------------|
+E|---------------------------------|
+[Am]Alza tus ojos [F]y mir[C]a, la cosecha e[E]sta lista
+El [Am]tiempo a lle[G]gado, [F]la mies esta [E]madura
+[Am]Esfuerzate y se [F]valiente[C] levantate [E]y predica
+A [Am]todas las n[G]aciones, q[F]ue Cristo es[E] la vida
+Chorus
+[Dm]Y [Em]  s[F]e - r[G]a     lle[Am]na la tierra de su gloria
+Se cu - [G]bri -[F] ra  [G]   como l[E]as aguas cubren[Am] la mar
+[Dm]Y [Em]  s[F]e - r[G]a     lle[Am]na la tierra de su gloria
+Se cu - [G]bri -[F] ra  [G]   como l[E]as aguas cubren[Am] la mar
+Second Part
+[Am]Alza tus ojos [F]y mir[C]a, la cosecha e[E]sta lista
+El [Am]tiempo a lle[G]gado, [F]la mies esta [E]madura
+[Am]Esfuerzate y se [F]valiente[C] levantate [E]y predica
+A [Am]todas las n[G]aciones, q[F]ue Cristo es[E] la vida
+Chorus
+[Dm]Y [Em]  s[F]e - r[G]a     lle[Am]na la tierra de su gloria
+Se cu - [G]bri -[F] ra  [G]   como l[E]as aguas cubren[Am] la mar
+[Dm]Y [Em]  s[F]e - r[G]a     lle[Am]na la tierra de su gloria
+Se cu - [G]bri -[F] ra  [G]   como l[E]as aguas cubren[Am] la mar
+Estribillo
+[E]No, no hay otr[Am]o nomb[E]re, dado [Am]a los hombres
+[Dm]Je - su [Am]- cris - [F]to, es el[E] señor
+Chorus
+[Dm]Y [Em]  s[F]e - r[G]a     lle[Am]na la tierra de su gloria
+Se cu - [G]bri -[F] ra  [G]   como l[E]as aguas cubren[Am] la mar
+[Dm]Y [Em]  s[F]e - r[G]a     lle[Am]na la tierra de su gloria
+Se cu - [G]bri -[F] ra  [G]   como l[E]as aguas cubren[Am] la mar
 `,
         order: 26,
         createdAt: Date.now(),
@@ -1336,32 +1322,25 @@ Chorus:
         title: "Cantaré al Señor Por Siempre",
         author: "Juan Carlos Alvarado",
         content: `
-INTRO:
-[Em] [D] [C] [B7] [Em]
-
-First Part:
-[Em] [D] Cantare al Señor por siempre
-[C] [B7] [Em] Su diestra es todo poder
-
-Ponte 1:
-[D] [Em] Echó a la mar, quien los perseguia
-[D] [Em] Jinete y caballo hecho a la mar
-
-Pre-Chorus:
-[D] [G] [Am] [B7] Echó a la mar los carros del faraon... Hey, Hey!
-
-Chorus:
-[Em] [D] [C] [B7] [Em] Laralalalala, laralalalala, laralalalalalala
-
-Ponte 2:
-[D] [Em] Mi Padre es Dios, y yo le exalto
-[D] [Em] Mi Padre es Dios, y le exatare/
-
-Pre-Chorus:
-[D] [G] [Am] [B7] Hecho a la mar los carros del faraon... Hey, Hey!
-
-Ending:
-[Em] [D] [C] [B7] [Em]
+Intro
+        [Em]  [D]  [C]  [B7]  [Em]
+First Part
+Can[Em]tare al Señor por si[D]empre
+Su di[C]estra e[B7]s todo [Em]poder
+Ponte 1
+Echó a la mar, q[D]uien los perseguia [Em]
+Jinete y caballo[D] hecho a la m[Em]ar
+Pre-Chorus
+Ech[D]ó a la m[G]ar los [Am]carros del f[B7]araon... Hey, Hey!
+Chorus
+Laral[Em]alalala, lar[D]alalalala, [C]laral[B7]alala[Em]lalala
+Ponte 2
+Mi Padre es Dios, [D]y yo le exalto[Em]
+Mi Padre es Dios,[D] y le exata[Em]re/
+Pre-Chorus
+Hec[D]ho a la [G]mar lo[Am]s carros del [B7]faraon... Hey, Hey!
+Ending
+         [Em]  [D]  [C]  [B7]  [Em]
 `,
         order: 27,
         createdAt: Date.now(),
@@ -1372,16 +1351,16 @@ Ending:
         title: "Cristo No Está Muerto",
         author: "Juan Carlos Alvarado",
         content: `
-[C] CRISTO NO ESTÁ MUERTO, ESTÁ VIVO
-[F] CRISTO NO ESTÁ MUERTO, ESTÁ VIVO
-[C] CRISTO NO ESTÁ MUERTO, ESTÁ VIVO
-[C] LO SIENTO EN MIS MANOS
-[C] LO SIENTO EN MIS PIES
-[C] LO SIENTO EN TODO MI SER
-[C] LA TENGO, LA TENGO
-[F] [C] LA TENGO, LA TENGO
-[G] [G7] [F#7] [F7] LA UNCION ESTA SOBRE MI
-[C] GLORIA A DIOS PORQUE LA TENGO
+[C]CRISTO NO ESTÁ MUERTO, ESTÁ VIVO
+CRIS[F]TO NO ESTÁ MUERTO, ESTÁ VIVO
+CRI[C]STO NO ESTÁ MUERTO, ESTÁ VIVO
+LO [C]SIENTO EN MIS MANOS
+LO S[C]IENTO EN MIS PIES
+LO [C]SIENTO EN TODO MI SER
+[C]LA TENGO, LA TENGO
+[F]LA TENGO, [C]LA TENGO
+[G]LA UNCION ES[G7]T[F#7]A S[F7]OBRE MI
+GLORIA A DIOS PORQUE LA TEN[C]GO
 `,
         order: 28,
         createdAt: Date.now(),
@@ -1392,59 +1371,53 @@ Ending:
         title: "Gracias",
         author: "Marcos Witt",
         content: `
-INTRO:
-[Bb] [F/A] [Cm] [Eb]
-[Am] [Dm] [F/A]
-
-Primera Parte:
-[Gm] Me has tomado en tus brazos
-[F] Y me has dado salvación
-[Gm] De tu amor, has derramado
-[F] En mi corazón
-[Gm] No sabré agradecerte
-[F] Lo que has hecho por mí
-[Gm] Solo puedo darte ahora
-[F] [F/A] Mi canción
-
-Chorus:
-[Bb] [F/A] Gra_cias (te digo gracias)
-[Cm] [Gm] [F/A] Gracias, Señor
-[Bb] [F] Gracias, mi Señor
-[Eb] Jesús
-[Bb] [F/A] Gra_cias (te digo gracias)
-[Cm] [Gm] [F/A] Gracias, Señor
-[Bb] [F] Gracias, mi Señor
-[Eb] [B] [Em7] Jesús
-
-Second Part:
-[Am] En la cruz, diste tu vida
-[G] Entregaste todo ahí
-[Am] Vida eterna regalaste
-[G] Al morir
-[Am] Por tu sangre, tengo entrada
-[G] Ante el trono celestial
-[Am] Yo puedo entrar confiadamente
-[G] [G/B] Ante ti
-
-Chorus:
-[C] [G/B] Gra_cias (te digo gracias)
-[Dm] [Am] [G/B] Gracias, Señor
-[C] [G] Gracias, mi Señor
-[F] [G] Jesús
-[C] [G/B] Gra_cias (te digo gracias)
-[Dm] [Am] [G/B] Gracias, Señor
-[C] [G] Gracias, mi Señor
-[Am] [G/B] Jesús
-
-Interlude:
-[G] [Dm] [Am] [G/B]
-[C] [G] [F] [Am] [G/B]
-
-Final Chorous:
-[C] [G/B] Gra_cias (te digo gracias)
-[Dm] [Am] [G/B] Gracias, Señor
-[C] [G] Gracias, mi Señor
-[F] [C] Jesús
+Intro
+        [Bb]  [F/A]  [Cm]  [Eb]
+        [Am]  [Dm]  [F/A]
+Primera Parte
+Me has tom[Gm]ado en tus brazos
+Y me has d[F]ado salvación
+De tu am[Gm]or, has derramado
+En mi coraz[F]ón
+No sabr[Gm]é agradecerte
+Lo que has h[F]echo por mí
+Solo pu[Gm]edo darte ahora
+Mi canci[F]ón[F/A]
+Chorus
+Gr[Bb]a_[F/A]cias (te digo gracias)
+Gr[Cm]acias, S[Gm]eñ[F/A]or
+Gr[Bb]acias, mi S[F]eñor
+J[Eb]esús
+Gr[Bb]a_[F/A]cias (te digo gracias)
+Gr[Cm]acias, S[Gm]eñ[F/A]or
+Gr[Bb]acias, mi S[F]eñor
+J[Eb]esú[B]s [Em7]
+Second Part
+En la cr[Am]uz, diste tu vida
+Entreg[G]aste todo ahí
+Vida et[Am]erna regalaste
+Al mor[G]ir
+Por tu s[Am]angre, tengo entrada
+Ante el tr[G]ono celestial
+Yo puedo entr[Am]ar confiadamente
+Ante t[G]i [G/B]
+Chorus
+Gr[C]a_[G/B]cias (te digo gracias)
+Gr[Dm]acias, S[Am]eñ[G/B]or
+Gr[C]acias, mi Se[G]ñor
+J[F]esús[G]
+Gr[C]a_[G/B]cias (te digo gracias)
+Gr[Dm]acias, S[Am]eñ[G/B]or
+Gr[C]acias, mi Se[G]ñor
+J[Am]esú[G/B]s
+Interlude
+            [G]  [Dm]  [Am]  [G/B]
+             [C]  [G]  [F]  [Am]  [G/B]
+Final Chorous
+Gr[C]a_[G/B]cias (te digo gracias)
+Gr[Dm]acias, S[Am]eñ[G/B]or
+Gr[C]acias, mi Se[G]ñor
+J[F]esús[C]
 `,
         order: 29,
         createdAt: Date.now(),
@@ -1455,62 +1428,56 @@ Final Chorous:
         title: "Cristo Yo Te Amo",
         author: "En Espíritu y en Verdad",
         content: `
-INTRO:
-[G] [C/G]
-
-First Part:
-[C/E] [D/F#] [G] Cristo yo te amo
-[D/F#] [Em7] Cristo yo te amo
-[Am] [D4] [D/F#] No hay nadie como tú
-[G] [D7(4/9)] Jesús
-[C/E] [D/F#] [G] Cristo yo te amo
-[D/F#] [Em7] Cristo yo te amo
-[Am] [D4] [D/F#] No hay nadie como tú
-[G] [D7(4/9)] Jesús
-
-Second Part:
-[D/F#] [G] Y no sé donde estuviera
-[D/F#] [Em] [D] Si yo a ti no te tuviera
-[Am] [D4] Si no hubiera conocido
-[D/F#] [G] [D7(4/9)] Al Dios que me ama
-
-First Part:
-[G] [C/G] [G] Cristo yo te amo
-[D/F#] [Em7] Cristo yo te amo
-[Am] [D] No hay nadie como tú
-[G] [D7(4/9)] Jesús
-[G] Cristo yo te amo
-[D/F#] [Em7] Cristo yo te amo
-[Am] [D4] [D] No hay nadie como tú
-[G] [D7(4/9)] Jesús
-
-Second Part:
-[G] Y no sé donde estuviera
-[D/F#] [Em] Si yo a ti no te tuviera
-[Am] [D] Si no hubiera conocido
-[G] [D7(4/9)] Al Dios que me ama
-[G] Y no sé donde estuviera
-[D/F#] [Em] Si yo a ti no te tuviera
-[Am] [D] Si no hubiera conocido
-[G] [E] Al Dios que me ama
-
-First Part:
-[A] Cristo yo te amo
-[E/G#] [F#m] Cristo yo te amo
-[Bm] [E] No hay nadie como tú
-[A] [E7(4/9)] Jesús
-
-Second Part:
-[A] Y no sé donde estuviera
-[E/G#] [F#m] Si yo a ti no te tuviera
-[Bm] [E] Si no hubiera conocido
-[A] [E7(4/9)] Al Dios que me ama
-[A] Y no sé donde estuviera
-[E/G#] [F#m] Si yo a ti no te tuviera
-[Bm] [E] Si no hubiera conocido
-[A] [Dm] Al Dios que me ama
-[A] [Dm] Al Dios que me ama
-[A] Al Dios que me ama
+Intro
+        [G]  [C/G]
+First Part
+Cr[C/E]ist[D/F#]o [G]yo te  amo
+Cristo y[D/F#]o [Em7]te  amo
+No hay nadie c[Am]omo t[D4]ú [D/F#]
+Jes[G]ús[D7(4/9)]
+Cr[C/E]ist[D/F#]o [G]yo te  amo
+Cristo y[D/F#]o [Em7]te  amo
+No hay nadie c[Am]omo t[D4]ú [D/F#]
+Jes[G]ús[D7(4/9)]
+Second Part
+Y no s[D/F#]é donde es[G]tuviera
+Si yo a ti no t[D/F#]e [Em]tu[D]viera
+Si no hubiera conoc[Am]id[D4]o
+Al Di[D/F#]os que[G] me[D7(4/9)] ama
+First Part
+Cristo yo te [G]amo[C/G]  [G]
+Cristo y[D/F#]o [Em7]te  amo
+No hay nadie c[Am]omo t[D]ú
+Jes[G]ús[D7(4/9)]
+Cristo yo te [G]amo
+Cristo y[D/F#]o [Em7]te  amo
+No hay nadie c[Am]omo t[D4]ú [D]
+Jes[G]ús[D7(4/9)]
+Second Part
+Y no sé donde estuvi[G]era
+Si yo a ti no t[D/F#]e [Em]tuviera
+Si no hubiera conoc[Am]id[D]o
+Al Dios que me [G]ama[D7(4/9)]
+Y no sé donde estuvi[G]era
+Si yo a ti no t[D/F#]e [Em] tuviera
+Si no hubiera conoc[Am]id[D]o
+Al Dios que me [G]ama[E]
+First Part
+Cristo yo te [A]amo
+Cristo y[E/G#]o [F#m]te  amo
+No hay nadie c[Bm]omo t[E]ú
+Jes[A]ús[E7(4/9)]
+Second Part
+Y no sé donde estuvi[A]era
+Si yo a ti no t[E/G#]e [F#m]tuviera
+Si no hubiera conoc[Bm]id[E]o
+Al Dios que me [A]ama[E7(4/9)]
+Y no sé donde estuvi[A]era
+Si yo a ti no t[E/G#]e [F#m]tuviera
+Si no hubiera conoc[Bm]id[E]o
+Al Dios que me [A]ama[Dm]
+Al Dios que me [A]ama[Dm]
+Al Dios que me [A]ama
 `,
         order: 30,
         createdAt: Date.now(),
@@ -1521,108 +1488,95 @@ Second Part:
         title: "Santo Por Siempre",
         author: "Adoración La IBI",
         content: `
-INTRO:
-[C] [Em] [D] [Bm]
-[Em] [D] [G]
-
-First Part:
-[G] Mil generaciones
-[C] [G] Se postran adorarle
-[Em] [D] Le cantan al cordero
-[C] Que venció
-
-Second Part:
-[G] Los que nos precedieron
-[C] [G] Y los que en Él creerán
-[Em] [D] Le cantarán a aquel
-[C] Que ya venció
-
-Pre-Refrão:
-[Em] Tu nombre, es más alto
-[D] Tu nombre, es más grande
-[Em] [D] [C] Tu nombre, sobre todo es
-[Em] Sean tronos, dominios
-[D] Poderes y reinos
-[Em] [D] [Am7] Tu nombre, sobre todo es
-
-Chorus 1:
-[C] Claman ángeles
-[Em] [D] San_to
-[Bm7] Clama la creación
-[Em] Santo
-[Am7] Exaltado Dios
-[D] Santo
-[G] Santo por siempre
-
-Third Part:
-[G] Si te ha perdonado
-[C] [G] Y tienes salvación
-[Em] [D] Cántale al cordero
-[C] Que venció
-
-Fourth Part:
-[G] Si te ha libertado
-[C] [G] Su nombre ha puesto en ti
-[Em] [D] Cántale al cordero
-[C] Que venció
-
-Pre-Refrão 2:
-[Em] [D] [Am] Cantaremos siempre "amén"
-
-Chorus 1:
-[C] Claman ángeles
-[Em] [D] San_to
-[Bm7] Clama la creación
-[Em] Santo
-[Am7] Exaltado Dios
-[D] Santo
-[G] Santo por siempre
-
-Chorus 2:
-[C] Canta el pueblo al Rey
-[Em] [D] San_to
-[Bm7] Soberano es Él
-[Em] Santo
-[Am7] Y por siempre es
-[D] Santo
-[G] Santo por siempre
-
-Pre-Refrão:
-[Em] Tu nombre, es más alto
-[D] Tu nombre, es más grande
-[Em] [D] [C] Tu nombre, sobre todo es
-[Em] Sean tronos, dominios
-[D] Poderes y reinos
-[Em] [D] [Am7] Tu nombre, sobre todo es
-[Em] Tu nombre, es más alto
-[D] Tu nombre, es más grande
-[Em] [D] [C] Tu nombre, sobre todo es
-[Em] Sean tronos, dominios
-[D] Poderes y reinos
-[Em] [D] [Am7] Tu nombre, sobre todo es
-
-Chorus 1:
-[C] Claman ángeles
-[Em] [D] San_to
-[Bm7] Clama la creación
-[Em] Santo
-[Am7] Exaltado Dios
-[D] Santo
-[G] Santo por siempre
-
-Chorus 2:
-[C] Canta el pueblo al Rey
-[Em] [D] San_to
-[Bm7] Soberano es Él
-[Em] Santo
-[Am7] Y por siempre es
-[D] Santo
-[G] Santo por siempre
-
-Ending:
-[Am7] Y por siempre es
-[D] Santo
-[G] [C] [G] Santo Por Siempre
+Intro
+        [C]  [Em]  [D]  [Bm]
+        [Em]  [D]  [G]
+First Part
+M[G]il generaciones
+Se p[C]ostran ado[G]rarle
+Le cant[Em]an al co[D]rdero
+Que venci[C]ó
+Second Part
+Los qu[G]e nos precedieron
+Y l[C]os que en Él cr[G]eerán
+Le c[Em]antarán a a[D]quel
+Que ya venci[C]ó
+Pre-Refrão
+Tu nombre, es más alto [Em]
+Tu no[D]mbre, es más grande
+Tu n[Em]ombre, sobre[D] tod[C]o es
+Sean tronos, dominios [Em]
+Pod[D]eres y reinos
+Tu n[Em]ombre, sobre[D] to[Am7]do es
+Chorus 1
+Claman ángel[C]es
+S[Em]an[D]_to
+Clama la creaci[Bm7]ón
+Sant[Em]o
+Exaltado Di[Am7]os
+Sant[D]o
+Santo por si[G]empre
+Third Part
+Si te ha perdonado
+Y ti[C]enes salvac[G]ión
+C[Em]ántale al co[D]rdero
+Que venci[C]ó
+Fourth Part
+S[G]i te ha libertado
+Su n[C]ombre ha puesto en [G]ti
+C[Em]ántale al co[D]rdero
+Que venci[C]ó
+Pre-Refrão 2
+C[Em]antaremos [D]siempre [Am]"amén"
+Chorus 1
+Claman ángel[C]es
+S[Em]an[D]_to
+Clama la creaci[Bm7]ón
+Sant[Em]o
+Exaltado Di[Am7]os
+Sant[D]o
+Santo por si[G]empre
+Chorus 2
+Canta el pueblo al R[C]ey
+S[Em]an[D]_to
+Soberano es [Bm7]Él
+Sant[Em]o
+Y por siempre [Am7]es
+Sant[D]o
+Santo por si[G]empre
+Pre-Refrão
+Tu nombre, es más alto [Em]
+Tu no[D]mbre, es más grande
+Tu n[Em]ombre, sobre[D] tod[C]o es
+Sean tronos, dominios [Em]
+Pod[D]eres y reinos
+Tu n[Em]ombre, sobre[D] to[Am7]do es
+Tu nombre, es más alto [Em]
+Tu no[D]mbre, es más grande
+Tu n[Em]ombre, sobre[D] tod[C]o es
+Sean tronos, dominios [Em]
+Pod[D]eres y reinos
+Tu n[Em]ombre, sobre[D] to[Am7]do es
+Chorus 1
+Claman ángel[C]es
+S[Em]an[D]_to
+Clama la creaci[Bm7]ón
+Sant[Em]o
+Exaltado Di[Am7]os
+Sant[D]o
+Santo por si[G]empre
+Chorus 2
+Canta el pueblo al R[C]ey
+S[Em]an[D]_to
+Soberano es [Bm7]Él
+Sant[Em]o
+Y por siempre [Am7]es
+Sant[D]o
+Santo por si[G]empre
+Ending
+Y por siempre [Am7]es
+Sant[D]o
+Santo Por Si[G]empre[C]  [G]
 `,
         order: 31,
         createdAt: Date.now(),
@@ -1633,52 +1587,39 @@ Ending:
         title: "Eres Todopoderoso",
         author: "Danilo Montero",
         content: `
-INTRO:
-[Bm] [D] [G] [F#m] [G] [Bm] [A] X2
-
-VERSO:
-[Bm] [G] La única razón de mi adoración
-[D] [F#m] Eres Tú, mi Jesús
-[Bm] [G] El único motivo para vivir
-[D] [A] Eres Tú, mi Señor
-
+       [Bm] [D] [G]    [F#m] [G]    [Bm]  [A]
+VERSO
+La ú[Bm]nica razón de mi [G]adoración
+[D]Eres Tú, mi Je[F#m]sús
+El ú[Bm]nico motivo [G]para vivir
+[D]Eres Tú, mi Se[A]ñor
 PD-C ORO:
-*NOTAS BASS: G G G F# F# G G G B B A A A A A A A A B B
-[G] [G] [G] [F#] [F#] [G] [G] [G] [B] [B] [A] [A] [A] [A] [A] [A] [A] [A] [A]
-[G] [D/F#] [G] Mi única verdad está en Ti
-[Bm] [A] [Bm] Eres mi luz y mi salvación
-[G] [D/F#] [G] Mi único amor eres Tú, Señor
-[Bm] [A] Y por siempre Te alabaré
-
+*NOTAS BASS: G G G  F# F#  G G G  B B   A A A  A A   A A A  B B
+             [G] [G] [G]  [F#] [F#]  [G] [G] [G]  [B] [B]   [A] [A] [A]  [A] [A]   [A] [A] [A] [A]
+Mi úni[G]ca ver[D/F#]da[G]d está en Ti
+[Bm] Eres m[A]i luz y mi salvac[Bm]ión
+Mi únic[G]o amo[D/F#]r e[G]res Tú, Señor
+[Bm]Y por[A] siempre Te alabaré
 CORO:
-*NOTAS BASS: B B D D D G G G G F# G G B B B A A A G A
-[B] [B] [D] [D] [D] [G] [G] [G] [G] [G] [F#] [F#] [F#] [F#] [F#] [A] [A] [A] [A]
-[Bm] [D] [G] Tú eres Todo Poderoso
-[D/F#] [G] [Bm] [A] Eres grande y majestuoso
-[Bm] [D] [G] Eres fuerte, invencible
-[F#m] [A] Y no hay nadie Como tú
-
-INTRO:
-[Bm] [D] [G] [F#m] [G] [Bm] [A] X2
-
-SE D PITE:
+ *NOTAS BASS :  B B  D D D  G G G G  F# G G  B B B  A A A   G A
+                [B] [B]  [D] [D] [D]  [G] [G] [G] [G]  [G]  [F#] [F#] [F#] [F#]   [F#]  [A] [A] [A] [A]
+Tú eres [Bm]To[D]do P[G]oderoso
+[D/F#]  Ere[G]s grand[Bm]e y m[A]ajestuoso
+Eres fue[Bm]rte,[D] in[G]vencible
+Y no hay n[F#m]adie  Com[A]o tú
+       [Bm] [D] [G]    [F#m] [G]    [Bm]  [A]
+SE D PITE
 * VERSO
 * PD-C ORO
 * CORO X2
-
-INSTRUMENTAL (G O DE GUITARRA):
-*NOTAS BAJO: B B D D D G G G G D G G B B B A A A G A X2
-*ACORDES SYNT: Bm D G D/F# G Bm A X2
-
-SUBE 1 TONO:
-CORO X4
-*NOTAS BAJO: C# C# E E E A A A A G# A A C# C# C# B B B A B
-[C#] [C#] [E] [E] [E] [A] [A] [A] [A] [A] [G#] [G#] [G#] [G#] [G#] [B] [B] [B] [B]
-[A] (Para finalizar) *ACORDES:
-[C#m] [E] [A] Tú eres Todo Poderoso
-[E/G#] [A] [C#m] [B] Eres grande y majestuoso
-[C#m] [E] [A] Eres fuerte, invencible
-[G#m] [B] ... [A] (para finalizar) Y no hay nadie Como tú
+INSTRUMENTAL  (G  O DE GUITARRA)
+               [C#]A[C#]  [E]([E]P[E]ar[A]a[A] [A]f[A]in[A]al[G#]i[G#]z[G#]a[G#]r)[G#]  [B] [B] [B] [B]
+ *ACORDES:
+Tú eres [C#m]T[E]odo [A]Poderoso
+[E/G#]  Ere[A]s grand[C#m]e y[B] majestuoso
+Eres fue[C#m]rte,[E] in[A]vencible
+          G#m          B ... A (para finalizar)
+Y no hay nadie  Como tú
 `,
         order: 32,
         createdAt: Date.now(),
@@ -1689,31 +1630,26 @@ CORO X4
         title: "Es Tiempo",
         author: "Hillsong UNITED",
         content: `
-[A] [F#m] [D] [A] Amor inexplicable, tu vida diste en la cruz, tuyo soy por siempre
-[F#m] [D] [A] En tu misericordia, me diste vida, diste amor, tu gran amor
-
-Pre-Estribillo:
-[E] [F#m] [D] Es tiempo de decidir por quien vivo
-[E] [F#m] [D] Te seguiré mi alabanza te daré, Jesús!
-
-Estribillo:
-[A] Por ti, por ti lo entrego todo
-[F#m] [D] [A] Solo a ti mi alabanza doy, toda mi alabanza doy
-[A] Por ti, por ti es por quien vivo
-[F#m] [D] [A] Te alabare con todo lo que soy, toda mi alabanza doy
-
-Puente:
-// [F#m] [D] [A] //
-// [F#m] [Bm] //
-[F#m] [Bm] [D] [A] [E] Tuyo soy señor, vivo para darte gloria oh Dios, gloria y honor
-
-Pre-Estribillo:
-[E] [F#m] [D] Es tiempo de decidir por quien vivo
-[E] [F#m] [D] Te seguiré mi alabanza te daré
-
-Ending:
-[F#m] Con todo lo que soy
-[D] [A] Toda mi alabanza doy
+[A]Amor inexplicable, tu vida diste en la [F#m]cru[D]z, tuyo soy [A]por siempre
+En tu misericordia, me diste vida, diste[F#m] amo[D]r, tu gra[A]n amor
+Pre-Estribillo
+Es ti[E]empo de [F#m]decidir por qu[D]ien vivo
+Te s[E]eguiré mi [F#m]alabanza t[D]e daré, Jesús!
+Estribillo
+Por [A]ti, por ti lo entrego todo
+[F#m]Solo a ti mi alabanz[D]a doy, toda mi alaban[A]za doy
+Por [A]ti, por ti es por quien vivo
+Te [F#m]alabare con todo lo qu[D]e soy, toda mi alaban[A]za doy
+Puente
+   [F#m]  [D]  [A]
+   [F#m]  [Bm]
+ [F#m]Tuyo soy seño[Bm]r, vivo para da[D]rte gloria oh [A]Dios, glor[E]ia y honor
+Pre-Estribillo
+Es ti[E]empo de [F#m]decidir por qu[D]ien vivo
+Te s[E]eguiré mi [F#m]alabanza t[D]e daré
+Ending
+Con todo lo que [F#m]soy
+Toda mi [D]alabanza [A]doy
 `,
         order: 33,
         createdAt: Date.now(),
@@ -1724,18 +1660,17 @@ Ending:
         title: "Toda la Noche Sin Parar",
         author: "Miel San Marcos",
         content: `
-INTRO:
-[Cm7] [Ebmaj7] //Toda la noche sin parar
-[Bb] [Gm7] Cantando alabanzas al Señor
-[Ab] [Fm7] Diciendo de su gloria y majestad
-[G] [F+/G] El es el Rey//
-
-CORO:
-[Cm] //Toda la noche sin parar
-[Bb] Cantando alabanzas al Señor
-[Ab] [Fm] Diciendo de su gloria y majestad
-[G] El es el Rey//
-[Cm] De Israel
+Intro:
+//Tod[Cm7]a la noche sin parar     [Ebmaj7]
+Cantand[Bb]o alabanzas al Señor          [Gm7]
+Diciend[Ab]o de su gloria y majestad          [Fm7]
+El es el Re[G]y//        [F+/G]
+Coro:
+//Tod[Cm]a la noche sin parar
+Cantand[Bb]o alabanzas al Señor
+Diciend[Ab]o de su gloria y majestad          [Fm]
+El es el Re[G]y//
+De Israe[Cm]l
 `,
         order: 34,
         createdAt: Date.now(),

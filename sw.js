@@ -1,4 +1,4 @@
-const CACHE_NAME = 'acordesapp-v6';
+const CACHE_NAME = 'acordesapp-v7';
 const NETWORK_FIRST = ['/index.html', '/app.js', '/data.js'];
 const FILES = [
   '/',

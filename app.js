@@ -1,7 +1,13 @@
 const STORAGE_KEY = 'acordesSongs';
 const CULTO_KEY = 'acordesCulto';
 const SEED_KEY = 'acordesSeedVersion';
-const SEED_VERSION = 5;
+const SEED_VERSION = 6;
+
+const ALIGN_FIX_IDS = new Set([
+  'default-023','default-024','default-025','default-026',
+  'default-027','default-028','default-029','default-030',
+  'default-031','default-032','default-033','default-034'
+]);
 
 const CHORDS = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 
@@ -77,6 +83,14 @@ function loadSongs() {
         existingIds.add(def.id);
       }
     });
+    if (storedVersion < 6) {
+      songs.forEach(song => {
+        if (ALIGN_FIX_IDS.has(song.id)) {
+          const def = DEFAULT_SONGS.find(d => d.id === song.id);
+          if (def) song.content = def.content;
+        }
+      });
+    }
     localStorage.setItem(SEED_KEY, String(SEED_VERSION));
     saveSongs();
   }
